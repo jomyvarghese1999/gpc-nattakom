@@ -1,6 +1,11 @@
 x=12
 y=15
+z=20
 if(x>y):
-    print (x)
+    if(x>z):
+        print (x)
 else:
-    print(y)    
+    if(y>z):
+        print(y) 
+    else:
+        print(z)
