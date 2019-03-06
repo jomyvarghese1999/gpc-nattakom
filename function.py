@@ -1,9 +1,6 @@
-def add(x,y):
-    z=x+y
-    return z
-
+import addmodule
 
 a=114
 b=545
-c=add(a,b)
+c=addmodule.add(a,b)
 print(c)    
